@@ -1,7 +1,7 @@
 # RINGME
 Android application which is used to change the ALERT mode of the mobile when needed.
 
-<<<<<<<<<<<<< PROJECT DIRECTORY STRUCTURE >>>>>>>>>>>>>>>>>
+<<<<<< PROJECT DIRECTORY STRUCTURE >>>>>>>
 Deliverables directory:
 =======================
 Contains all the deliverable documents submitted.
