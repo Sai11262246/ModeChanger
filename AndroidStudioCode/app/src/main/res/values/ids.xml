@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="w1" type="id"></item>
+    <item name="w2" type="id"></item>
+    <item name="v1" type="id"></item>
+    <item name="im1" type="id"></item>
+    <item name="r1" type="id"></item>
+    <item name="v2" type="id"></item>
+    <item name="im2" type="id"></item>
+    <item name="r2" type="id"></item>
+    <item name="v3" type="id"></item>
+    <item name="im3" type="id"></item>
+    <item name="r3" type="id"></item>
+    <item name="v4" type="id"></item>
+    <item name="im4" type="id"></item>
+    <item name="r4" type="id"></item>
+    <item name="r5" type="id"></item>
+</resources>
