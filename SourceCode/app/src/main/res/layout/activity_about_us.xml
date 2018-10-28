@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="#fff0f0f0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@id/w1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="70.0sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/header" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/w2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/w1">
+
+        <RelativeLayout
+            android:id="@id/v1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0sp">
+
+            <ImageView
+                android:id="@id/im1"
+                android:background="@drawable/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0sp" />
+
+            <TextView
+                android:textColor="#ff000000"
+                android:id="@id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0sp"
+                android:text="Using ANY phone SMS your 4 Digit Security PIN to YOUR Mobile Number"
+                android:layout_toRightOf="@id/im1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/v2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0sp"
+            android:layout_below="@id/v1">
+
+            <ImageView
+                android:id="@id/im2"
+                android:background="@drawable/smso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.0sp" />
+
+            <TextView
+                android:textColor="#ff000000"
+                android:id="@id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.0sp"
+                android:text="You will immediately receive an SMS with list of UNIQUE COMMANDS valid only for 1 hour (post which you may generate fresh commands by following step1)"
+                android:layout_toRightOf="@id/im2" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/v3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0sp"
+            android:layout_below="@id/v2">
+
+            <ImageView
+                android:id="@id/im3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7.0sp"
+                android:background="@drawable/smso" />
+
+            <TextView
+                android:id="@id/r3"
+                android:layout_width="262dp"
+                android:layout_height="42dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="23dp"
+                android:layout_toRightOf="@id/im3"
+                android:text="sms any of the COMMANDS to YOUR Mobile Number "
+                android:textColor="#ff000000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/v4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0sp"
+            android:layout_below="@id/v3">
+
+            <ImageView
+                android:id="@id/im4"
+                android:background="@drawable/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.0sp" />
+
+            <TextView
+                android:textColor="#ff000000"
+                android:id="@id/r4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0sp"
+                android:text="You will receive desired results corresponding to the COMMANDS.Try multiple commands and see the Magic !"
+                android:layout_toRightOf="@id/im4" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:textSize="15.0sp"
+        android:textColor="#ffffffff"
+        android:id="@id/r5"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0sp"
+        android:layout_marginTop="20.0sp"
+        android:text="Go Back"
+        android:layout_below="@id/w2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
