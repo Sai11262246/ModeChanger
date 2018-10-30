@@ -16,4 +16,5 @@
     <string name="title_activity_home">homeActivity</string>
     <string name="title_activity_about_us">about_us</string>
     <string name="title_activity_home_">Home_Activity</string>
+    <string name="title_activity_splash__screen">Splash_Screen</string>
 </resources>

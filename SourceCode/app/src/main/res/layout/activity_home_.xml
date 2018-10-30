@@ -14,16 +14,16 @@
         android:layout_centerVertical="true">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Mode changer"
             android:id="@+id/mc"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10.0sp"
-            android:text="     About Us       "
+            android:text="How it Works"
             android:id="@+id/au"/>
 
 
