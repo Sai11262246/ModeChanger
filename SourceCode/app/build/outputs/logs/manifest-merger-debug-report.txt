@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\3bb893728d2f7f486e804bd83bbc48fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a660891c3c944f30dbdd99f6004f0ab8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6a2f9703772d12c8ae180696251e6679\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\874f6cb35cf230483ce2e9654895a7b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\d4fe51f2c640e1902a2842daa8c20ba6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\62536a8332b06b00afa8ea1e700597d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\7ba74227dc1e661c28182176d0f15956\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0234e849af5b0dee93e1bf7308ba9b89\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8daacc6b2c0a7df9eb7a837e93fabf8c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\28a891667ab88d9c57558866c8ae4ed4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\151eb76b7149a6d5cee11a4f4cae2ab9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\06d0b57c6711525110889d1864ca0ee6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\020179149df6e73291e084bd8baa6730\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f0daa1985fdb7af0eff347d81bef7a4e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\634512e08dce8cb9b6352ffb92832de2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7ecd0d1db4b69b91383e14040a8d4305\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\48936d4cb11c8ab2794e3ebcd7b5bd81\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:8:22-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:9:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:15:22-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:16:22-72
+application
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:18:5-56:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6a2f9703772d12c8ae180696251e6679\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6a2f9703772d12c8ae180696251e6679\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:22:9-41
+	android:roundIcon
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:23:9-54
+	android:icon
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:25:9-40
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:19:9-38
+activity#com.vivartha.modechanger.LoginActivity
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:26:9-51
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:26:19-48
+activity#com.vivartha.modechanger.MainActivity
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:27:9-50
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:27:19-47
+receiver#com.vivartha.modechanger.MyReceiver
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:29:9-36:20
+	android:process
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:32:13-38
+	android:enabled
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:31:13-35
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:30:13-39
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:33:13-35:29
+	android:label
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:33:28-56
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:34:25-79
+activity#com.vivartha.modechanger.about_us
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:38:9-40:63
+	android:label
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:40:13-60
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:39:13-37
+activity#com.vivartha.modechanger.Home_Activity
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:41:9-43:60
+	android:label
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:43:13-57
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:42:13-42
+activity#com.vivartha.modechanger.Splash_Screen
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:44:9-52:20
+	android:label
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:46:13-66
+	android:theme
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:47:13-53
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:45:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:48:13-51:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:50:17-77
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:50:27-74
+activity#com.vivartha.modechanger.NewModesActivity
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:53:9-54
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:53:19-51
+activity#com.vivartha.modechanger.Registration
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:54:9-50
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:54:19-47
+activity#com.vivartha.modechanger.PinPadActivity
+ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:55:9-51
+	android:name
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml:55:19-49
+uses-sdk
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\3bb893728d2f7f486e804bd83bbc48fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\3bb893728d2f7f486e804bd83bbc48fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a660891c3c944f30dbdd99f6004f0ab8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a660891c3c944f30dbdd99f6004f0ab8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6a2f9703772d12c8ae180696251e6679\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6a2f9703772d12c8ae180696251e6679\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\874f6cb35cf230483ce2e9654895a7b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\874f6cb35cf230483ce2e9654895a7b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\d4fe51f2c640e1902a2842daa8c20ba6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\d4fe51f2c640e1902a2842daa8c20ba6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\62536a8332b06b00afa8ea1e700597d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\62536a8332b06b00afa8ea1e700597d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\7ba74227dc1e661c28182176d0f15956\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\7ba74227dc1e661c28182176d0f15956\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0234e849af5b0dee93e1bf7308ba9b89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0234e849af5b0dee93e1bf7308ba9b89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8daacc6b2c0a7df9eb7a837e93fabf8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8daacc6b2c0a7df9eb7a837e93fabf8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\28a891667ab88d9c57558866c8ae4ed4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\28a891667ab88d9c57558866c8ae4ed4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\151eb76b7149a6d5cee11a4f4cae2ab9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\151eb76b7149a6d5cee11a4f4cae2ab9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\06d0b57c6711525110889d1864ca0ee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\06d0b57c6711525110889d1864ca0ee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\020179149df6e73291e084bd8baa6730\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\020179149df6e73291e084bd8baa6730\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f0daa1985fdb7af0eff347d81bef7a4e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f0daa1985fdb7af0eff347d81bef7a4e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\634512e08dce8cb9b6352ffb92832de2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\634512e08dce8cb9b6352ffb92832de2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7ecd0d1db4b69b91383e14040a8d4305\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7ecd0d1db4b69b91383e14040a8d4305\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\48936d4cb11c8ab2794e3ebcd7b5bd81\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\saikr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\48936d4cb11c8ab2794e3ebcd7b5bd81\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\saikr\Desktop\Project_SE\Share\ModeChanger\app\src\main\AndroidManifest.xml

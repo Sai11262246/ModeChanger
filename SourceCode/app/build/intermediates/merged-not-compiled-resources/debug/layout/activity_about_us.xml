@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:background="#fff0f0f0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/w2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="90.0sp"
+            android:background="@drawable/header" />
+
+        <RelativeLayout
+            android:id="@id/v1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0sp">
+
+            <ImageView
+                android:id="@id/im1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0sp"
+                android:background="@drawable/phone" />
+
+            <TextView
+                android:id="@id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@id/im1"
+                android:text="Using ANY phone, Goto SMS Application."
+                android:textColor="#ff000000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/v2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0sp"
+            android:layout_below="@id/v1">
+
+            <ImageView
+                android:id="@id/im2"
+                android:background="@drawable/smso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.0sp" />
+
+            <TextView
+                android:textColor="#ff000000"
+                android:id="@id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.0sp"
+                android:layout_marginTop="25dp"
+                android:text="In this SMS Application send KEYWORD(To the mode which you want to change) to your mobile."
+                android:layout_toRightOf="@id/im2" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/v3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0sp"
+            android:layout_below="@id/v2">
+
+            <ImageView
+                android:id="@id/im3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7.0sp"
+                android:background="@drawable/smso" />
+
+            <TextView
+                android:id="@id/r3"
+                android:layout_width="262dp"
+                android:layout_height="55dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="23dp"
+                android:layout_toRightOf="@id/im3"
+                android:text="The SMS Application in the Receivers Mobile reads the message and sends to our application"
+                android:textColor="#ff000000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/v4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0sp"
+            android:layout_below="@id/v3">
+
+            <ImageView
+                android:id="@id/im4"
+                android:background="@drawable/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.0sp" />
+
+            <TextView
+                android:textColor="#ff000000"
+                android:id="@id/r4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10.0sp"
+                android:text="Our Applications checks the keyword and changes to the mode you desired!"
+                android:layout_toRightOf="@id/im4" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:textSize="15.0sp"
+        android:textColor="#ffffffff"
+        android:id="@id/r5"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0sp"
+        android:layout_marginTop="20.0sp"
+        android:text="Go Back"
+        android:layout_below="@id/w2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
