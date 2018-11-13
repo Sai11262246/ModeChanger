@@ -1,3 +1,10 @@
+/**
+ * @author sai krsihna kolli
+ * The AboutUs provides the user with key information on how the application works.
+ * Predefined Classes used : Buttons and intents
+ * Predefined classes are used to navigate between the screens
+ */
+
 package com.vivartha.modechanger;
 
 import android.content.Intent;

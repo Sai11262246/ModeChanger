@@ -11,6 +11,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+ * @author Revanth
+ * In this activity we created the shared prefernces where we can store the instances of the keywods
+ * here we used different predefined functionalities to validate the keyword.
+ */
+
 public class MainActivity extends Activity {
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
