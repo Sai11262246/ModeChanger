@@ -1,4 +1,8 @@
 package com.vivartha.modechanger;
+/**
+ * created by revanth.
+ * allows user to create pin for easy login and also checks when he enters the pin.
+ */
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,13 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-/**
- * @author vikas
- * This class validates the pin entered by the user.
- * Which acts as an immediate security provider.
- * Layout desoigned by :sai krishna.
- */
 
 public class PinPadActivity extends Activity implements View.OnClickListener {
     EditText e1,e2,e3,e4;
@@ -145,6 +142,8 @@ public class PinPadActivity extends Activity implements View.OnClickListener {
                     if(pin2.equals(mAppPreferences.getPin())){
                         startActivity(new Intent(PinPadActivity.this, Home_Activity.class));
                         finish();
+                    }else{
+                        Toast.makeText(getApplicationContext(), "Wrong Pin Entered.", Toast.LENGTH_SHORT).show();
                     }
                 }else{
                     // pin setupp
@@ -153,8 +152,9 @@ public class PinPadActivity extends Activity implements View.OnClickListener {
                         mAppPreferences.savePinPadState(1);
                         startActivity(new Intent(PinPadActivity.this, Home_Activity.class));
                         finish();
+                    }else{
+                        Toast.makeText(getApplicationContext(), "Wrong Pin Entered.", Toast.LENGTH_SHORT).show();
                     }
-
                 }
 
             }

@@ -1,13 +1,13 @@
 package com.vivartha.modechanger;
+/**
+ * Created by vikas.
+ * An activiy to display about the application such as namae and created by.
+ */
 
-import android.content.Intent;
+        import android.content.Intent;
         import android.os.Bundle;
         import android.app.Activity;
 
-/**
- * @author sai krsihna
- * This is a splash screen activity
-  */
 public class Splash_Screen extends Activity {
 
     @Override
