@@ -3,8 +3,8 @@ package com.vivartha.modechanger;
 import android.app.Application;
 
 /**
- * @author saikrishna
- * To control the flow of application
+ * created by Revanth
+ * implements onCreate and instance classes.
  */
 
 public class AppController extends Application {

@@ -1,15 +1,15 @@
 package com.vivartha.modechanger;
+/**
+ * created by Vikas.
+ * This is used to store and delete the data across the application.
+ * It sets the shared preferences.
+ */
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
-/**
- * @author revanth
- * To declare the preferences.
- * Set the default values for the keywords.
- */
 
 /**Saving data across the application */
 public class AppPreferences {
@@ -63,6 +63,29 @@ public class AppPreferences {
 	public String getPin(){
 		return appSharedPrefs.getString("pin", "");
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	public void saveLatitude(String latitude){
 		prefsEditor.putString("lat", latitude);
 		prefsEditor.commit();

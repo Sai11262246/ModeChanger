@@ -1,4 +1,8 @@
 package com.vivartha.modechanger;
+/**
+ * created by revanth
+ * Login Activity to read the credentials from the user and validates those credentials.
+ */
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,12 +16,10 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
- * @author sai krsihna
  * A login screen that offers login via email/password.
- * Allows user to enter details and navigates to the application.
- * validates user credentials.
  */
 public class LoginActivity extends AppCompatActivity  {
 
@@ -107,6 +109,8 @@ public class LoginActivity extends AppCompatActivity  {
             if(DataBaseHelper.getInstance().isValidUser(email, password)){
                 startActivity(new Intent(this, PinPadActivity.class));
                 finish();
+            }else{
+                Toast.makeText(getApplicationContext(), "Invalid user name or password", Toast.LENGTH_SHORT).show();
             }
 
         }
