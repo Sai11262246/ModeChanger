@@ -6,12 +6,14 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+
 /**
- * Created by sai krishna, vikas on 11/8/2018.
- * This integrates the SQLite database into the apploication
- * craetes two tables.
- * one is to store user details.
- * another is to store the user ctredentials and details.
+ * Created by Vikas.
+ * Here a table is created which stores the user details and the keywords.
  */
 
 public class DataBaseHelper extends SQLiteOpenHelper {
@@ -70,13 +72,51 @@ public class DataBaseHelper extends SQLiteOpenHelper {
                 + "other4 TEXT)";
         sqLiteDatabase.execSQL(users_table);
 
+        String activity_log_table = "CREATE TABLE activity_log ("
+                + "row_id INTEGER PRIMARY KEY NOT NULL,"
+                + "msg_desc TEXT,"
+                + "date_time TEXT,"
+                + "op_name TEXT,"
+                + "other1 TEXT,"
+                + "other2 TEXT,"
+                + "other3 TEXT)";
+        sqLiteDatabase.execSQL(activity_log_table);
     }
+
+
+    public ArrayList<ActivityLogModel> getActivityLogRecords() {
+        ArrayList<ActivityLogModel> mList = new ArrayList();
+
+        int count = 0;
+        String query;
+        Cursor mCursor = null;
+        try {
+            query = "select * from activity_log order by row_id desc";
+            db = getReadableDatabase();
+            mCursor = db.rawQuery(query, null);
+            if (mCursor.getCount() > 0) {
+                while (mCursor.moveToNext()) {
+                    ActivityLogModel model = new ActivityLogModel();
+                    model.activity_log_desc = mCursor.getString(mCursor.getColumnIndex("msg_desc"));
+                    model.date_time = mCursor.getString(mCursor.getColumnIndex("date_time"));
+                    model.option_code = mCursor.getString(mCursor.getColumnIndex("op_name"));
+                    mList.add(model.addItems(model));
+                }
+            }
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            mCursor.close();
+        }
+        return mList;
+    }
+
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
 
     }
-
     public String getValueByOptionName(String option){
         db = getReadableDatabase();
         Cursor c = null;
@@ -87,8 +127,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
                     c.moveToFirst();
                     return  c.getString(0);
                 }
-
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -96,7 +134,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         }
         return "";
     }
-
     public String getOptionNameByValue(String value){
         db = getReadableDatabase();
         Cursor c = null;
@@ -116,8 +153,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         }
         return "";
     }
-
-
     public boolean isValidUser(String email, String passowrd){
         db = getReadableDatabase();
         Cursor c = null;
@@ -136,10 +171,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         }
         return false;
     }
-
-
-
-
     public void updateValueByOption(String optionName, String new_val) {
         ContentValues cv = new ContentValues();
         db = getWritableDatabase();
@@ -159,8 +190,28 @@ public class DataBaseHelper extends SQLiteOpenHelper {
             db.close();
         }
     }
-
-
+    public void insertActLog(String msg_desc, String op_name) {
+        db = getWritableDatabase();
+        ContentValues cv = new ContentValues();
+        try {
+            db.beginTransaction();
+            cv.put("msg_desc", msg_desc);
+            cv.put("op_name", op_name);
+            cv.put("date_time", getDateTime());
+            db.insert("activity_log", null, cv);
+            db.setTransactionSuccessful();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            db.endTransaction();
+            db.close();
+        }
+    }
+    private String getDateTime() {
+        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        Date date = new Date();
+        return dateFormat.format(date);
+    }
     public void inserNewUser(String name, String email,String  phone,String  password ) {
         db = getWritableDatabase();
         ContentValues cv = new ContentValues();
@@ -179,5 +230,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
             db.close();
         }
     }
+
+
+
 
 }
