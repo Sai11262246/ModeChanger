@@ -1,15 +1,12 @@
 package com.vivartha.modechanger;
+/**
+ * created by revanth.
+ * An activity to check the credentials entered by the user.
+ */
 
 import java.util.regex.Pattern;
 
-/**
- * @author vikas
- * This class contains all the utility functions.
- * which is used accross the application.
- * Modified by : sai teja, siri gogineni.
- */
 public class MyUtils {
-
 
 
     public static boolean isEmailValid(String email) {

@@ -1,4 +1,9 @@
 package com.vivartha.modechanger;
+/**
+ * created by siri gogineni.
+ * Development phase-2 requirements are added in this class.
+ *In this activity the functionalities added are wifi, bluetooth and voluming.
+ */
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,13 +18,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
-
-/**
- * @author saikrishna
- * This class contains newly implemented features such as WIFI, Bluetooth.
- * Reads the keywords from the database and compares it with the received message.
- * Performs specified action, when both are equal.
- */
 
 public class NewModesActivity extends Activity {
 

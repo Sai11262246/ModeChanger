@@ -1,4 +1,8 @@
 package com.vivartha.modechanger;
+/**
+ * Created by vikas
+ * Allows user to register.
+ */
 
 import android.app.Activity;
 import android.content.ContentValues;
@@ -6,12 +10,6 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
-
-/**
- * @author sai teja malle
- * It helps user to register.
- * Stores the user information into the database.
- */
 
 public class Registration extends Activity {
 
